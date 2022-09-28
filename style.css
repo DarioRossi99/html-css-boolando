@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    background-color: rgb(255, 105, 0);
+}
+
+.container{
+    margin: 0 auto;
+    width: 920px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 4rem;
+}
+
+.img{
+    width: 18rem;
+}
+
+.nav{
+    width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flow-root;
+    color: white;
+}
+
+.barranav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.red{
+    color: red;
+}
+
+.tagli{
+    text-decoration: line-through;
+}
+
+.bgfooter{
+    background-color: rgb(26, 26, 26);
+
+}
+
+.finenav{
+    width: 1135px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(26, 26, 26);
+    display: flow-root;
+}
+
+.barranav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textnav{
+    color: white;
+}
